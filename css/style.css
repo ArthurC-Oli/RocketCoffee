@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,400;8..144,700&family=Roboto:wght@400;700&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   outline: 0;
+   box-sizing: border-box;
+   font-family: 'Roboto', sans-serif;
+   color: #2D2C2A;
+}
+
+p {
+    color: #000000;
+}
+
+html {
+    height: 100%;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto Serif', sans-serif;
+}
+
+body { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    background-color: #FFEDD5;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 span {
+    font-family: 'Roboto Serif', sans-serif;
+    color: #995000;
+}
+
+header p {
+    margin-top: 3px;
+    font-size: 14px;
+}
+
+ul li {
+    list-style: none;
+    margin-block: 15px;
+    display: flex;
+}
+
+section h2 {
+    background-color: #FED7AA;
+    width: 300px;
+    height: auto;
+    padding: 7px;
+    text-align: center;
+    font-size: 18px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 30px;
+}
+
+.details h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.description {
+    font-size: 14px;
+}
+
+.price {
+    font-family: 'Roboto Serif', sans-serif;
+    font-size: 16px;
+}
